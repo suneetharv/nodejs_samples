@@ -1,8 +1,9 @@
 /*
 
 */
-
-const score = 95;
+const prompt = require("prompt-sync")();
+const score = Number(prompt("Please enter the score : "));
+//const score = 95;
 
 if(score > 35){
     console.log("Passed the examination");
